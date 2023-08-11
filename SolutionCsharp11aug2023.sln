@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleArrays11aug2023", "SolutionCsharp11aug2023\ConsoleArrays11aug2023.csproj", "{02F71EB7-85FF-4C7A-B7AE-3F050E13614F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleEnumBMI11aug2023", "ConsoleEnumBMI11aug2023\ConsoleEnumBMI11aug2023.csproj", "{5C7BFA52-B351-4EB8-BCCD-3CC5F8FE217E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{02F71EB7-85FF-4C7A-B7AE-3F050E13614F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02F71EB7-85FF-4C7A-B7AE-3F050E13614F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02F71EB7-85FF-4C7A-B7AE-3F050E13614F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C7BFA52-B351-4EB8-BCCD-3CC5F8FE217E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C7BFA52-B351-4EB8-BCCD-3CC5F8FE217E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C7BFA52-B351-4EB8-BCCD-3CC5F8FE217E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C7BFA52-B351-4EB8-BCCD-3CC5F8FE217E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
