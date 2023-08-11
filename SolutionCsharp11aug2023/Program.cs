@@ -19,7 +19,7 @@
             {
                 Console.WriteLine("Array gevuld met de getallen van 100 tot 1");
                 int[] array2 = new int[100];
-                for (int i = 0; i < array2.Length; i++) // Copy paste bug in array1.Length
+                for (int i = 0; i < array2.Length; i++)
                 {
                     array2[i] = i + 1;
                 }
@@ -77,7 +77,6 @@
                     if (i != 0) Console.Write(", ");
                     Console.Write(array4[i]);
                 }
-
                 Console.WriteLine();
             }
 
@@ -94,7 +93,7 @@
                 Console.WriteLine();
             }
 
-            Console.WriteLine("Druk op de enter toets om door te gaan naar de theorie. (exit is stop)");
+            Console.WriteLine("Druk op de enter toets om door te gaan. (exit is stop)");
             string input = Console.ReadLine();
             if (input == "exit" || input == "stop") Environment.Exit(0);
 
@@ -163,7 +162,6 @@
             ToonVeelvouden(getallen, 4);
         }
         #endregion
-
 
 
         #region ToonArray
@@ -248,7 +246,7 @@
             karakters[8] = 'i';
             string nieuweZin = new string(karakters);
             Console.WriteLine(nieuweZin);
-            Console.WriteLine("De uitvoer zal worden:Ik ben Tim.");
+            Console.WriteLine("De uitvoer zal worden: Ik ben Tim.");
         }
         #endregion
 
@@ -426,7 +424,6 @@
         }
         #endregion
 
-        // 19 Jun 2020 Arrays
 
         #region Sort
         {
