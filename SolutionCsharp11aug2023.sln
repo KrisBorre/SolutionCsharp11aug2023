@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleArrays11aug2023", "S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleEnumBMI11aug2023", "ConsoleEnumBMI11aug2023\ConsoleEnumBMI11aug2023.csproj", "{5C7BFA52-B351-4EB8-BCCD-3CC5F8FE217E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTheMatrix17aug2023", "ConsoleTheMatrix17aug2023\ConsoleTheMatrix17aug2023.csproj", "{CF558FAE-3736-4A26-9A0B-AB584BFEA7DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleTheMatrix17aug2023", "ConsoleTheMatrix17aug2023\ConsoleTheMatrix17aug2023.csproj", "{CF558FAE-3736-4A26-9A0B-AB584BFEA7DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleNamed17aug2023", "ConsoleNamed17aug2023\ConsoleNamed17aug2023.csproj", "{17CE2475-0FB6-4D4D-8962-140D6B9F4826}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleNamed17aug2023", "ConsoleNamed17aug2023\ConsoleNamed17aug2023.csproj", "{17CE2475-0FB6-4D4D-8962-140D6B9F4826}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolePlaneet21aug2023", "ConsolePlaneet21aug2023\ConsolePlaneet21aug2023.csproj", "{7CFD6052-FC00-4949-80A6-B7F3BF60A12A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{17CE2475-0FB6-4D4D-8962-140D6B9F4826}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17CE2475-0FB6-4D4D-8962-140D6B9F4826}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17CE2475-0FB6-4D4D-8962-140D6B9F4826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CFD6052-FC00-4949-80A6-B7F3BF60A12A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFD6052-FC00-4949-80A6-B7F3BF60A12A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFD6052-FC00-4949-80A6-B7F3BF60A12A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFD6052-FC00-4949-80A6-B7F3BF60A12A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
