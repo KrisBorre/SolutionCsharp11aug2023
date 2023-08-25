@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSchoen25aug2023", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleQuiz25aug2023", "ConsoleQuiz25aug2023\ConsoleQuiz25aug2023.csproj", "{2C20278E-1AB7-4F3A-998C-E4ED51ADF79F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleNeo25aug2023", "ConsoleNeo25aug2023\ConsoleNeo25aug2023.csproj", "{68D2C3D1-B337-449C-9D61-548F78D25812}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{2C20278E-1AB7-4F3A-998C-E4ED51ADF79F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C20278E-1AB7-4F3A-998C-E4ED51ADF79F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C20278E-1AB7-4F3A-998C-E4ED51ADF79F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68D2C3D1-B337-449C-9D61-548F78D25812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D2C3D1-B337-449C-9D61-548F78D25812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D2C3D1-B337-449C-9D61-548F78D25812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D2C3D1-B337-449C-9D61-548F78D25812}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
