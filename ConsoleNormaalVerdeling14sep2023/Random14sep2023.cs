@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleNormaalVerdeling14sep2023
+﻿namespace ConsoleNormaalVerdeling14sep2023
 {
     // Numerical Recipes in C++
     // Recommended generator.

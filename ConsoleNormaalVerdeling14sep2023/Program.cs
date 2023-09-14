@@ -118,5 +118,7 @@ internal class Program
         Console.WriteLine("Een brede Gauss distributie:\n");
         HistogramLeva1992(variantie_breed);
 
+        Console.WriteLine("met vriendelijke groeten, Kris Borremans");
+        Console.ReadLine();
     }
 }
