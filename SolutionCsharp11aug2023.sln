@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleArrays11aug2023", "SolutionCsharp11aug2023\ConsoleArrays11aug2023.csproj", "{02F71EB7-85FF-4C7A-B7AE-3F050E13614F}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleEnumBMI11aug2023", "ConsoleEnumBMI11aug2023\ConsoleEnumBMI11aug2023.csproj", "{5C7BFA52-B351-4EB8-BCCD-3CC5F8FE217E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleTheMatrix17aug2023", "ConsoleTheMatrix17aug2023\ConsoleTheMatrix17aug2023.csproj", "{CF558FAE-3736-4A26-9A0B-AB584BFEA7DF}"
@@ -19,9 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleQuiz25aug2023", "Con
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleNeo25aug2023", "ConsoleNeo25aug2023\ConsoleNeo25aug2023.csproj", "{68D2C3D1-B337-449C-9D61-548F78D25812}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleNormaalVerdeling14sep2023", "ConsoleNormaalVerdeling14sep2023\ConsoleNormaalVerdeling14sep2023.csproj", "{A8650621-C6A6-477E-871D-4F3079879F5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleNormaalVerdeling14sep2023", "ConsoleNormaalVerdeling14sep2023\ConsoleNormaalVerdeling14sep2023.csproj", "{A8650621-C6A6-477E-871D-4F3079879F5D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsFramework14sep2023", "WindowsFormsFramework14sep2023\WindowsFormsFramework14sep2023.csproj", "{09AB6370-36FF-4B3C-AB63-3D89C52B69CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleArrays11aug2023", "ConsoleArrays11aug2023\ConsoleArrays11aug2023.csproj", "{C1A3AF20-0547-456C-ACB2-74861318E09B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{02F71EB7-85FF-4C7A-B7AE-3F050E13614F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{02F71EB7-85FF-4C7A-B7AE-3F050E13614F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{02F71EB7-85FF-4C7A-B7AE-3F050E13614F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{02F71EB7-85FF-4C7A-B7AE-3F050E13614F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5C7BFA52-B351-4EB8-BCCD-3CC5F8FE217E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5C7BFA52-B351-4EB8-BCCD-3CC5F8FE217E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C7BFA52-B351-4EB8-BCCD-3CC5F8FE217E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -69,6 +65,10 @@ Global
 		{09AB6370-36FF-4B3C-AB63-3D89C52B69CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09AB6370-36FF-4B3C-AB63-3D89C52B69CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09AB6370-36FF-4B3C-AB63-3D89C52B69CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1A3AF20-0547-456C-ACB2-74861318E09B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A3AF20-0547-456C-ACB2-74861318E09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A3AF20-0547-456C-ACB2-74861318E09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A3AF20-0547-456C-ACB2-74861318E09B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
