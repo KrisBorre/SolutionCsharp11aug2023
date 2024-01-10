@@ -23,7 +23,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsFramework14sep2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleArrays11aug2023", "ConsoleArrays11aug2023\ConsoleArrays11aug2023.csproj", "{C1A3AF20-0547-456C-ACB2-74861318E09B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleEqualsBook10nov2023", "ConsoleEqualsBook10nov2023\ConsoleEqualsBook10nov2023.csproj", "{67ACB557-22E4-43B1-94DA-CDAF8CB83206}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleEqualsBook10nov2023", "ConsoleEqualsBook10nov2023\ConsoleEqualsBook10nov2023.csproj", "{67ACB557-22E4-43B1-94DA-CDAF8CB83206}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsDrawing10jan2024", "WinFormsDrawing10jan2024\WinFormsDrawing10jan2024.csproj", "{9D761BED-90A5-4A93-B152-26F32000C0A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{67ACB557-22E4-43B1-94DA-CDAF8CB83206}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67ACB557-22E4-43B1-94DA-CDAF8CB83206}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67ACB557-22E4-43B1-94DA-CDAF8CB83206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D761BED-90A5-4A93-B152-26F32000C0A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D761BED-90A5-4A93-B152-26F32000C0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D761BED-90A5-4A93-B152-26F32000C0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D761BED-90A5-4A93-B152-26F32000C0A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
