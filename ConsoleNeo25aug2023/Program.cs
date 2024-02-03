@@ -84,7 +84,7 @@ internal class Program
 
             Console.Write(teken);
 
-            System.Threading.Thread.Sleep(1); //dit getal is in milliseconden.
+            Thread.Sleep(1); //dit getal is in milliseconden.
         }
 
         Console.BackgroundColor = defaultBackgroundColor;
