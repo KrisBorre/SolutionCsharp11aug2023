@@ -101,5 +101,29 @@
             var result = AreaCalculation.Multiply(a, b);
             return result;
         }
+
+        public static LengthInMeter operator +(LengthInMeter a, LengthInCentimeter b)
+        {
+            var result = LengthCalculation.Add(a, b);
+            return result;
+        }
+
+        public static LengthInMeter operator +(LengthInCentimeter a, LengthInMeter b)
+        {
+            var result = LengthCalculation.Add(a, b);
+            return result;
+        }
+
+        public static LengthInMeter operator +(LengthInMeter a, LengthInKilometer b)
+        {
+            var result = LengthCalculation.Add(a, b);
+            return result;
+        }
+
+        public static LengthInMeter operator +(LengthInKilometer a, LengthInMeter b)
+        {
+            var result = LengthCalculation.Add(a, b);
+            return result;
+        }
     }
 }

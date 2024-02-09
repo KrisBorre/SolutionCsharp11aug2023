@@ -40,5 +40,25 @@
         {
             return m_LengthInCentimeter + " m";
         }
+
+
+
+        public static LengthInMeter operator +(LengthInCentimeter a, LengthInCentimeter b)
+        {
+            var result = LengthCalculation.Add(a, b);
+            return result;
+        }
+
+        public static LengthInMeter operator +(LengthInCentimeter a, LengthInKilometer b)
+        {
+            var result = LengthCalculation.Add(a, b);
+            return result;
+        }
+
+        public static LengthInMeter operator +(LengthInKilometer a, LengthInCentimeter b)
+        {
+            var result = LengthCalculation.Add(a, b);
+            return result;
+        }
     }
 }

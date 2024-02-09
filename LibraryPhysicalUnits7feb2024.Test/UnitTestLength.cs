@@ -234,6 +234,91 @@
         [Fact]
         public void Test25()
         {
+            LengthInMeter length1 = new LengthInMeter(5, 0);
+            Assert.Equal(expected: 5, actual: length1.GetInMeter());
+
+            LengthInCentimeter length2 = new LengthInCentimeter(2, 0);
+            Assert.Equal(expected: 2, actual: length2.GetInCentimeter());
+
+            LengthInMeter totalLength = length1 + length2;
+
+            Assert.Equal(expected: 502, actual: totalLength.GetInCentimeter(), tolerance: 1);
+        }
+
+        [Fact]
+        public void Test26()
+        {
+            LengthInMeter length1 = new LengthInMeter(5, 0);
+            Assert.Equal(expected: 5, actual: length1.GetInMeter());
+
+            LengthInCentimeter length2 = new LengthInCentimeter(2, 0);
+            Assert.Equal(expected: 2, actual: length2.GetInCentimeter());
+
+            LengthInMeter totalLength = length1 + length2;
+
+            Assert.Equal(expected: 5.02, actual: totalLength.GetInMeter(), tolerance: 0.01);
+        }
+
+        [Fact]
+        public void Test27()
+        {
+            LengthInCentimeter length1 = new LengthInCentimeter(5, 0);
+            Assert.Equal(expected: 0.05, actual: length1.GetInMeter());
+
+            LengthInCentimeter length2 = new LengthInCentimeter(2, 0);
+            Assert.Equal(expected: 2, actual: length2.GetInCentimeter());
+
+            ILength totalLength = length1 + length2;
+
+            Assert.Equal(expected: 0.07, actual: totalLength.GetInMeter(), tolerance: 0.01);
+        }
+
+        [Fact]
+        public void Test28()
+        {
+            LengthInMeter length1 = new LengthInMeter(5, 1);
+            Assert.Equal(expected: 5, actual: length1.GetInMeter());
+
+            LengthInCentimeter length2 = new LengthInCentimeter(2, 0.1);
+            Assert.Equal(expected: 2, actual: length2.GetInCentimeter());
+
+            ILength totalLength = length1 + length2;
+
+            Assert.Equal(expected: 502, actual: totalLength.GetInCentimeter(), tolerance: 150);
+        }
+
+
+        [Fact]
+        public void Test29()
+        {
+            LengthInMeter length1 = new LengthInMeter(5, 0.1);
+            Assert.Equal(expected: 5, actual: length1.GetInMeter());
+
+            LengthInCentimeter length2 = new LengthInCentimeter(2, 1);
+            Assert.Equal(expected: 2, actual: length2.GetInCentimeter());
+
+            ILength totalLength = length1 + length2;
+
+            Assert.Equal(expected: 5.02, actual: totalLength.GetInMeter(), tolerance: 0.15);
+        }
+
+        [Fact]
+        public void Test30()
+        {
+            LengthInCentimeter length1 = new LengthInCentimeter(5, 0.002);
+            Assert.Equal(expected: 0.05, actual: length1.GetInMeter());
+
+            LengthInCentimeter length2 = new LengthInCentimeter(2, 0);
+            Assert.Equal(expected: 2, actual: length2.GetInCentimeter());
+
+            ILength totalLength = length1 + length2;
+
+            Assert.Equal(expected: 0.07, actual: totalLength.GetInMeter(), tolerance: 0.002);
+        }
+
+        [Fact]
+        public void Test31()
+        {
 
         }
     }
